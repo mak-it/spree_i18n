@@ -19,8 +19,8 @@ lv:
     update: "Atjauninājums"
   active: "Aktīvs"
   activerecord: 
-    attributes: 
-      address: 
+    attributes:
+      spree/address:
         address1: "Adrese"
         address2: "Adrese (papildus)"
         city: "Pilsēta"
@@ -32,41 +32,40 @@ lv:
         phone: "Telefons"
         state: "Rajons"
         zipcode: "Pasta indekss"
-      checkout: 
-        bill_address: 
-          address1: "Rēķina adrese - iela"
-          city: "Rēķina adrese - pilsēta"
-          firstname: "Rēķina adrese - vārds"
-          lastname: "Rēķina adrese - uzvārds"
-          phone: "Rēķina adrese - telefona nr."
-          state: "Rēķina adrese - rajons"
-          zipcode: "Rēķina adrese - pasta indekss"
-        ship_address: 
-          address1: "Nosūtīšanas adrese - iela"
-          city: "Nosūtīšanas adrese - pilsēta"
-          firstname: "Nosūtīšanas adrese - vārds"
-          lastname: "Nosūtīšanas adrese - uzvārds"
-          phone: "Nosūtīšanas adrese - telefona nr."
-          state: "Nosūtīšanas adrese - rajons"
-          zipcode: "Nosūtīšanas adrese - pasta indekss"
-      country: 
+      spree/checkout/bill_address:
+        address1: "Rēķina adrese - iela"
+        city: "Rēķina adrese - pilsēta"
+        firstname: "Rēķina adrese - vārds"
+        lastname: "Rēķina adrese - uzvārds"
+        phone: "Rēķina adrese - telefona nr."
+        state: "Rēķina adrese - rajons"
+        zipcode: "Rēķina adrese - pasta indekss"
+      spree/checkout/ship_address:
+        address1: "Nosūtīšanas adrese - iela"
+        city: "Nosūtīšanas adrese - pilsēta"
+        firstname: "Nosūtīšanas adrese - vārds"
+        lastname: "Nosūtīšanas adrese - uzvārds"
+        phone: "Nosūtīšanas adrese - telefona nr."
+        state: "Nosūtīšanas adrese - rajons"
+        zipcode: "Nosūtīšanas adrese - pasta indekss"
+      spree/country:
         iso: ISO
         iso3: ISO3
         iso_name: "ISO vārds"
         name: "Nosaukums"
         numcode: "ISO kods"
-      creditcard: 
+      spree/creditcard:
         cc_type: "Tips"
         month: "Mēnesis"
         number: "Skaitlis"
         verification_value: "Pārbaudes vērtība"
         year: "Gads"
-      inventory_unit: 
+      spree/inventory_unit:
         state: "Apgabals"
-      line_item: 
+      spree/line_item:
         price: "Cena"
         quantity: "Daudzums"
-      order: 
+      spree/order:
         checkout_complete: "Izrakstīšanās pabeigta"
         completed_at: "Completed At"
         coupon_code: "Coupon Code"
@@ -76,7 +75,7 @@ lv:
         special_instructions: "Īpašas norādes"
         state: "Apgabals"
         total: "Kopā"
-      product: 
+      spree/product:
         available_on: "Pieejams pēc"
         cost_price: "Pašizmaksa"
         description: "Apraksts"
@@ -85,49 +84,49 @@ lv:
         on_hand: "Pieejams"
         shipping_category: "Piegādes kategorija"
         tax_category: "Nodokļu kategorija"
-      product_group: 
+      spree/product_group:
         name: "Nosaukums"
         product_count: "Produktu skaits"
         product_scopes: "Produkta lietošanas joma"
         products: "Produkti"
         url: URL
-      product_scope: 
+      spree/product_scope:
         arguments: "Argumenti"
         description: "Apraksts"
-      promotion: 
+      spree/promotion:
         code: "Code"
         description: "Description"
         expires_at: "Expires at"
         name: "Name"
         starts_at: "Starts at"
         usage_limit: "Usage limit"
-      property: 
+      spree/property:
         name: "Nosaukums"
         presentation: "Prezentācija"
-      prototype: 
+      spree/prototype:
         name: "Nosaukums"
-      return_authorization: 
+      spree/return_authorization:
         amount: "Summa"
-      role: 
+      spree/role:
         name: "Nosaukums"
-      state: 
+      spree/state:
         abbr: "Saīsinājums"
         name: "Nosaukums"
-      tax_category: 
+      spree/tax_category:
         description: "Apraksts"
         name: "Nosaukums"
-      tax_rate: 
+      spree/tax_rate:
         amount: "Summa"
-      taxon: 
+      spree/taxon:
         name: "Nosaukums"
         permalink: Permalink
         position: "Stāvoklis"
-      taxonomy: 
+      spree/taxonomy:
         name: "Nosaukums"
-      user: 
+      spree/user:
         email: "E-pasts"
         login: "Lietotājvārds"
-      variant: 
+      spree/variant:
         cost_price: "Pašizmaksa"
         depth: "Biezums"
         height: "Augstums"
@@ -135,86 +134,86 @@ lv:
         sku: SKU
         weight: "Svars"
         width: "Platums"
-      zone: 
+      spree/zone:
         description: "Apraksts"
         name: "Nosaukums"
     models: 
-      address: 
+      spree/address:
         one: "Adrese"
         other: "Adreses"
-      cheque_payment: 
+      spree/cheque_payment:
         one: "Samaksa ar čeku"
         other: "Samaksa ar čeku"
-      country: 
+      spree/country:
         one: "Valsts"
         other: "Valstis"
-      creditcard: 
+      spree/creditcard:
         one: "Kredītkarte"
         other: "Kredītkartes"
-      creditcard_payment: 
+      spree/creditcard_payment:
         one: "Kredītkartes maksājums"
         other: "Kredītkartes maksājums"
-      creditcard_txn: 
+      spree/creditcard_txn:
         one: "Kredītkartes transakcija"
         other: "Kredītkartes transakcijas"
-      inventory_unit: 
+      spree/inventory_unit:
         one: "Krājuma vienība"
         other: "Krājuma vienības"
-      line_item: 
+      spree/line_item:
         one: "Pozīcijas vienība"
         other: "Pozīcijas vienības"
-      order: 
+      spree/order:
         one: "Pasūtījums"
         other: "Pasūtījumi"
-      payment: 
+      spree/payment:
         one: "Maksājums"
         other: "Maksājumi"
-      product: 
+      spree/product:
         one: "Produkts"
         other: "Produkti"
-      product_group: 
+      spree/product_group:
         one: "Produkta grupa"
         other: "Produkta grupas"
-      property: 
+      spree/property:
         one: Property
         other: Properties
-      prototype: 
+      spree/prototype:
         one: "Prototips"
         other: "Prototipi"
-      return_authorization: 
+      spree/return_authorization:
         one: "Atgriešanas autorizācija"
         other: "Atgriešanas autorizācijas"
-      role: 
+      spree/role:
         one: "Loma"
         other: "Lomas"
-      shipment: 
+      spree/shipment:
         one: "Sūtījums"
         other: "Sūtījumi"
-      shipping_category: 
+      spree/shipping_category:
         one: "Piegādes kategorija"
         other: "Piegādes kategorijas"
-      state: 
+      spree/state:
         one: "Štats"
         other: "Štati"
-      tax_category: 
+      spree/tax_category:
         one: "Nodokļu kategorija"
         other: "Nodokļu kategorijas"
-      tax_rate: 
+      spree/tax_rate:
         one: "Nodokļu likme"
         other: "Nodokļu likmes"
-      taxon: 
+      spree/taxon:
         one: Taxon
         other: Taxons
-      taxonomy: 
+      spree/taxonomy:
         one: Taxonomy
         other: Taxonomies
-      user: 
+      spree/user:
         one: "Lietotājs"
         other: "Lietotāji"
-      variant: 
+      spree/variant:
         one: Variant
         other: Variants
-      zone: 
+      spree/zone:
         one: "Zona"
         other: "Zonas"
   add: "Pievienot"
