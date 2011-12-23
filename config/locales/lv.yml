@@ -125,7 +125,8 @@ lv:
       taxonomy: 
         name: "Nosaukums"
       user: 
-        email: "Epasts"
+        email: "E-pasts"
+        login: "Lietotājvārds"
       variant: 
         cost_price: "Pašizmaksa"
         depth: "Biezums"
