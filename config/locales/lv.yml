@@ -565,8 +565,8 @@ lv:
   next: "Nākamais"
   no_items_in_cart: ""
   no_match_found: "Nekas netika atrasts"
-  no_payment_methods_available: "Nevar noslēgt darījumu, nekāda maksājuma metode nav konfigurēta šai videi"
-  no_products_found: "Nav atrasts nekāds produkts"
+  no_payment_methods_available: "Nevar noslēgt darījumu, neviena maksājuma metode nav nokonfigurēta šai videi"
+  no_products_found: "Neviens produkts netika atrasts"
   no_results: "No results"
   no_rules_added: No rules added
   no_user_found: "Neviens lietotājs netika atrasts ar šādu e-pasta adresi"
@@ -834,10 +834,10 @@ lv:
     user: 
       description: Available only to the specified users
       name: User
-  promotions: Promotions
+  promotions: Akcijas
   promotions_description: Manage offers and coupons with promotions
-  properties: Properties
-  property: Property
+  properties: Parametri
+  property: Parametrs
   prototype: "Prototips"
   prototypes: "Prototipi"
   provider: "Piegādātājs"
