@@ -126,6 +126,7 @@ lv:
       spree/user:
         email: "E-pasts"
         login: "Lietotājvārds"
+        password: "Parole"
       spree/variant:
         cost_price: "Pašizmaksa"
         depth: "Biezums"
