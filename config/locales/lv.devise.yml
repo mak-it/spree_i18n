@@ -5,8 +5,8 @@ lv:
       already_confirmed: 'ir jau apstiprināts'
       not_locked: 'netika nobloķēts'
       not_saved:
-        one: '1 kļūda apturēja šo %{resource} no veiksīgas izveides:'
-        other: '%{count} kļūdas apturēja šo %{resource} no veiksīgas izveides:'
+        one: 'Dēļ 1 kļūdas šis %{model} netika saglabāts:'
+        other: 'Dēļ %{count} kļūdām šis %{resource} netika saglabāts:'
   devise:
     failure:
       unauthenticated: 'Jums ir jāpieslēdzas vai jāreģistrējas, lai turpinātu.'
