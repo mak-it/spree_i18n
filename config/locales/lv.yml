@@ -406,8 +406,8 @@ lv:
       could_not_create_taxon: "Could not create taxon"
       no_shipping_methods_available: "No shipping methods available for selected location, please change your address and try again."
   errors_prohibited_this_record_from_being_saved: 
-    one: "Dēļ 1 kļūdas šis %{model} netika saglabāts"
-    other: "Dēļ %{count} kļūdām šis %{model} netika saglabāts"
+    one: "Dēļ 1 kļūdas ieraksts netika saglabāts"
+    other: "Dēļ %{count} kļūdām ieraksts netika saglabāts"
   event: "Notikums"
   existing_customer: "Esošais klients"
   expiration: "Izbeigšanās"
