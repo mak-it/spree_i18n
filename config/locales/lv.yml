@@ -509,8 +509,8 @@ lv:
   login: Login
   login_as_existing: "Pieslēgties kā esošais klients"
   login_failed: "Pieslēgšanās sistēmai neizdevās."
-  login_name: "Ielagoties"
-  logout: "Izlagoties"
+  login_name: "Pieslēgties"
+  logout: "Atslēgties"
   look_for_similar_items: "Meklēt līdzīgas vienības"
   maestro_or_solo_cards: "Maestro/Solo kartes"
   mail_delivery_enabled: "Pasta sūtīšana ir atļauta"
