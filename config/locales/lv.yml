@@ -311,7 +311,7 @@ lv:
   charge_total: "Kopējā summa"
   charged: "Samaksāts"
   charges: Charges
-  checkout: Checkout
+  checkout: Pasūtīt
   cheque: "Čeks"
   city: "Pilsēta"
   clone: "Klonēt"
@@ -392,7 +392,7 @@ lv:
   email_address: "Epasta adrese"
   email_server_settings_description: "E-pasta servera uzstādījumi."
   empty: "Empty"
-  empty_cart: "Tukšs grozs"
+  empty_cart: "Iztukšot grozu"
   enable_login_via_login_password: "Izmanto standarta e-pastu/paroli"
   enable_login_via_openid: "Tā vietā izmantot atvērto ID"
   enable_mail_delivery: "Atļaut pasta sūtīšanu"
@@ -492,16 +492,17 @@ lv:
   last_year: "Pēdējais gads"
   leave_blank_to_not_change: "(leave blank if you don't want to change it)"
   list: "Saraksts"
-  listing_categories: "Uzskaitāmās kategorijas"
-  listing_option_types: "Uzskaitāmie opcijas tipi"
-  listing_orders: "Uzskaitāmie pasūtījumi"
-  listing_product_groups: "Uzskaitāmās produktu grupas"
-  listing_reports: "Uzskaitāmā atskaite"
-  listing_tax_categories: "Uzskaitāmā nodokļu kategorija"
-  listing_users: "Uzskaitāmie lietotāji"
+  listing_categories: "Kategorijas"
+  listing_option_types: "Opcijas tipi"
+  listing_orders: "Pasūtījumi"
+  listing_product_groups: "Produktu grupas"
+  listing_products: "Produkti"
+  listing_reports: "Atskaites"
+  listing_tax_categories: "Nodokļu kategorijas"
+  listing_users: "Lietotāji"
   live: "Live"
   loading: "Lādējās"
-  locale_changed: "Darbības vieta izmainīta"
+  locale_changed: "Valoda nomainīta"
   log_in: "Pieslēgties"
   logged_in_as: "Pieslēgties kā"
   logged_in_succesfully: "Pieslēgšanās veiksmīga"
@@ -654,7 +655,7 @@ lv:
   payment_methods: "Maksājuma metodes"
   payment_methods_setting_description: "Konfigurēt metodes, kuras var izmantot klienti, lai maksātu"
   payment_processing_failed: "Payment could not be processed, please check the details you entered"
-  payment_state: Payment State
+  payment_state: Maksājuma statuss
   payment_states: 
     balance_due: balance due
     checkout: checkout
@@ -913,8 +914,8 @@ lv:
   shipment_mailer: 
     shipped_email: 
       subject: "Shipment Notification"
-  shipment_number: "Sūtījums #"
-  shipment_state: Shipment State
+  shipment_number: "Piegādes nr."
+  shipment_state: Piegādes statuss
   shipment_states: 
     backorder: backorder
     partial: partial
@@ -983,9 +984,9 @@ lv:
   street_address_2: "Ielas adrese (turpinājums)"
   subtotal: "Starpsumma"
   subtract: "Atskaitīt"
-  successfully_created: "%{resource} has been successfully created!"
-  successfully_removed: "%{resource} has been successfully removed!"
-  successfully_updated: "%{resource} has been successfully updated!"
+  successfully_created: "%{resource} tika veiksmīgi izveidots(-a)!"
+  successfully_removed: "%{resource} tika veiksmīgi izdzēsts(-a)!"
+  successfully_updated: "%{resource} tika veiksmīgi saglabāts(-a)!"
   system: "Sistēma"
   tax: "Nodokļi"
   tax_categories: "Nodokļu kategorijas"
