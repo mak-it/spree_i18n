@@ -1000,9 +1000,9 @@ lv:
   tax_type: "Nodokļu tips"
   taxon: Taxon
   taxon_edit: Edit Taxon
-  taxonomies: Taxonomies
-  taxonomies_setting_description: "Create and manage taxonomies"
-  taxonomy_edit: "Edit taxonomy"
+  taxonomies: Klasifikatori
+  taxonomies_setting_description: "Pārvaldīt klasifikatorus"
+  taxonomy_edit: "Labot klasifikatoru"
   taxonomy_tree_error: "Prasītās izmaiņas nav pieņemtas un koks ir atgriezts iepriekšējā stāvoklī, lūdzu, mēģiniet vēlreiz."
   taxonomy_tree_instruction: "* Ar labo peli uzklikšķiniet kokā, lai piekļūtu izvēlei: pievienošanai, izdzēšanai vai sortēšanai."
   taxons: Taxons
