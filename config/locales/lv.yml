@@ -512,7 +512,7 @@ lv:
   login_failed: "Pieslēgšanās sistēmai neizdevās."
   login_name: "Pieslēgties"
   logout: "Atslēgties"
-  look_for_similar_items: "Meklēt līdzīgas vienības"
+  look_for_similar_items: "Meklēt līdzīgas preces"
   maestro_or_solo_cards: "Maestro/Solo kartes"
   mail_delivery_enabled: "Pasta sūtīšana ir atļauta"
   mail_delivery_not_enabled: "Pasta sūtīšana nav atļauta"
@@ -538,7 +538,7 @@ lv:
   new_billing_integration: New Billing Integration
   new_category: "Jauna kategorija"
   new_customer: "Jauns klients"
-  new_image: "Jauns tēls"
+  new_image: "Jauns attēls"
   new_mail_method: New Mail Method
   new_option_type: "Jauns opciju tips"
   new_option_value: "Jauna opcijas vērtība"
@@ -1072,7 +1072,7 @@ lv:
   you_have_been_logged_out: "Jūs esat izgājis no sistēmas."
   you_have_no_orders_yet: "You have no orders yet."
   your_cart_is_empty: "Jūsu iepirkuma grozs ir tukšs"
-  zip: "Pasta kods"
+  zip: "Pasta indekss"
   zone: "Zona"
   zone_based: "Uz zonas balstīts"
   zone_setting_description: "Valstu, rajonu vai citu zonu kolekcija, kuru izmantot dažādās kalkulācijās."
