@@ -1150,7 +1150,7 @@ lv:
     shipping_method: Piegādes veids
     shipping_methods: Piegādes veidi
     shipping_price_sack:
-    shipping_total:
+    shipping_total: Piegāde
     shop_by_taxonomy: "Pirkt pēc %{taxonomy}"
     shopping_cart: Iepirkuma grozs
     show: Parādīt
